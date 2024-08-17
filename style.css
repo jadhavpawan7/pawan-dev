@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.web-page{
+    height: 600px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+}
+.web-page2{
+    height: 600px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    background-color: blanchedalmond;
+    margin-top: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: azure;
+}
+
+.navbar-one{
+    display: flex;
+    text-transform: capitalize;
+    gap: 60px;
+    font-size: x-large;
+}
+
+.container-para{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+
+.navbar-para{
+    margin-top: 40px;
+    font-size: xx-large;
+}
+.image:hover{
+    rotate: 360deg;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+
+.para-section{
+    justify-content: center;
+    text-align: center;
+    gap: 300px;
+    font-size: 25px;
+    text-transform: capitalize;
+    align-items: center;
+    font-family: "Itim", cursive;
+}
+
+.container-two-para{
+    justify-content: center;
+    text-align: center;
+}
+
+.two-boxes{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+.box1{
+    height: 100px;
+    width: 30%;
+    background-color: rgb(228, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.box2{
+    height: 100px;
+    width: 30%;
+    background-color: rgb(86, 86, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+
+.four-boxes{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+.box3{
+    height: 100px;
+    width: 30%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+
+.box4{
+    height: 100px;
+    width: 30%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+
+.contact-all-logo{
+    justify-content: center;
+    text-align: center;
+}
+
+.logos{
+    font-size: x-large;
+}
+.box1:hover{
+    rotate: 30deg;
+    transition: 1s ease;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.box2:hover{
+    rotate: -30deg;
+    transition: 1s ease;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+.box3:hover{
+    rotate: 30deg;
+    transition: 1s ease;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+.box4:hover{
+    rotate: -30deg;
+    transition: 1s ease;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
